@@ -1,0 +1,30 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        gap: 50px;
+}
+.iten > img{
+        max-height: 300px;
+        min-width: 350px;
+        border: transparent;
+        border-radius: 20px;
+}      
+
+.itens{
+        display: flex;
+        
+}
+.iten{
+        display: none;
+        transition: all .5s ease;
+}
+.iten.show{
+        display: flex;
+}
